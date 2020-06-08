@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #e9e9e9;
+} 
+
+body {
+    background-color: #1c1b1f;
+}
+p {
+    color: #8f8f91;
+}
+
+header .nav a {
+    color:#e9e9e9;
+    font-weight: bold;
+    padding: 0;
+    margin-right: 30px;
+    /* padding-left: 25px; */
+    /* margin-left: 6px; */
+}
+
+header a.active, header a:hover{
+    color: #b695e4;
+    border-bottom: 1px solid;
+}
+
+.article {
+    background-color:#303033;
+    padding: 25px 25px;
+    border-radius: 5px;
+}
+
+.article     a{ 
+    color: #b594e1;
+}
+
+footer .nav a{
+    color:#e9e9e9;
+    font-weight: bold;
+}
