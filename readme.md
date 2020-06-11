@@ -3,8 +3,8 @@
 
 <h2 align="center">Light Mode</h2>
 
-![Light Mode](./img/lightMode.png)
+![Light Mode](./img/light-mode.png)
 
 <h2 align="center">Dark Mode</h2>
 
-![Dark Mode](./img/darkMode.png)
+![Dark Mode](./img/dark-mode.png)
