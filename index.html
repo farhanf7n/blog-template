@@ -6,12 +6,17 @@
     <title>Blog Template</title>
 
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    
     <link id="pagestyle" rel="stylesheet" href="./css/light.css">
 
     <script>
       function swapStyleSheet(sheet){
           document.getElementById('pagestyle').setAttribute('href', sheet);
       }
+
+      // const btnD = document.querySelector(".btn-dark");
+      // btnD.style.display = "none";
       </script>
 </head>
 <body>
@@ -27,8 +32,9 @@
         </div>
         
         <div>
-          <button class="btn btn-dark" onclick="swapStyleSheet('./css/dark.css')">Dark Mode</button>
-          <button class="btn btn-light" onclick="swapStyleSheet('./css/light.css')">Light Mode</button>
+          <button class="btn btn-dark" onclick="swapStyleSheet('./css/dark.css')">Dark Mode <i class="fas fa-moon" style="color: red;"></i></button>
+          <button class="btn btn-light" onclick="swapStyleSheet('./css/light.css')">Light Mode <i class="fas fa-sun" style="color: red;"></i></button>
+          
         </div>
       </nav>
     </header>

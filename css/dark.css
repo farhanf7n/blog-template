@@ -57,3 +57,8 @@ footer .nav a{
     margin-right: 30px;
     margin-bottom: 30px;
 }
+
+.page-footer .nav a:hover{
+    color: #7373fb;
+    border-bottom: 1px solid;
+}
