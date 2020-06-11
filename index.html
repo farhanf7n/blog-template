@@ -6,17 +6,30 @@
     <title>Blog Template</title>
 
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link id="pagestyle" rel="stylesheet" href="./css/light.css">
+
+    <script>
+      function swapStyleSheet(sheet){
+          document.getElementById('pagestyle').setAttribute('href', sheet);
+      }
+      </script>
 </head>
 <body>
   <div class="main container">
     <header>
       <nav class="nav mt-4">
-        <a class="nav-link active" href="#">BLOG</a>
-        <a class="nav-link" href="#">Notes</a>
-        <a class="nav-link" href="#">OSS</a>
-        <a class="nav-link" href="#">Reading</a>
-        <a class="nav-link" href="#">About</a>
+        <div class="nav-links">
+          <a class="nav-link active" href="#">BLOG</a>
+          <a class="nav-link" href="#">Notes</a>
+          <a class="nav-link" href="#">OSS</a>
+          <a class="nav-link" href="#">Reading</a>
+          <a class="nav-link" href="#">About</a>
+        </div>
+        
+        <div>
+          <button class="btn btn-dark" onclick="swapStyleSheet('./css/dark.css')">Dark Mode</button>
+          <button class="btn btn-light" onclick="swapStyleSheet('./css/light.css')">Light Mode</button>
+        </div>
       </nav>
     </header>
 
